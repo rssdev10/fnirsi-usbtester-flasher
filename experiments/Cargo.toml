@@ -1,0 +1,13 @@
+[package]
+name = "fnirsi_usbtester-flasher"
+version = "0.1.0"
+edition = "2021"
+description = "CLI for flashing Artery AT32F403ACGT7 based device (Fnirsi FNB58)"
+license = "MIT"
+
+[dependencies]
+rusb = "0.9"
+clap = { version = "4", features = ["derive"] }
+
+serialport = "4.7.0"
+tabled = "0.12.2"
